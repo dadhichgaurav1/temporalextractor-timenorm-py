@@ -30,17 +30,28 @@ results = parser.parse(text, anchor)
 
 ## Installation
 
+### From GitHub
+
+```bash
+# Clone the repository
+git clone https://github.com/dadhichgaurav1/temporalextractor-timenorm-py.git
+cd temporalextractor-timenorm-py
+
+# Install in development mode
+pip install -e .
+```
+
+### From PyPI (Coming Soon)
+
 ```bash
 pip install timenorm-py
 ```
 
-### Development Installation
+### Requirements
 
-```bash
-git clone https://github.com/clulab/timenorm.git
-cd timenorm
-pip install -e ".[dev]"
-```
+- Python 3.10+
+- `python-dateutil`
+- `tensorflow` (optional, for neural network inference)
 
 ## Quick Start
 
